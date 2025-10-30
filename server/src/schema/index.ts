@@ -67,6 +67,7 @@ import { TagTable } from 'src/schema/tables/tag.table';
 import { UserAuditTable } from 'src/schema/tables/user-audit.table';
 import { UserMetadataAuditTable } from 'src/schema/tables/user-metadata-audit.table';
 import { UserMetadataTable } from 'src/schema/tables/user-metadata.table';
+import { UserPersonTable } from 'src/schema/tables/user-person.table';
 import { UserTable } from 'src/schema/tables/user.table';
 import { VersionHistoryTable } from 'src/schema/tables/version-history.table';
 import { Database, Extensions, Generated, Int8 } from 'src/sql-tools';
@@ -124,6 +125,7 @@ export class ImmichDatabase {
     UserMetadataTable,
     UserMetadataAuditTable,
     UserTable,
+    UserPersonTable,
     VersionHistoryTable,
   ];
 
@@ -226,6 +228,7 @@ export interface DB {
   tag_closure: TagClosureTable;
 
   user: UserTable;
+  user_person: UserPersonTable;
   user_audit: UserAuditTable;
   user_metadata: UserMetadataTable;
   user_metadata_audit: UserMetadataAuditTable;
