@@ -1,5 +1,5 @@
-name: Report an issue with Immich
-description: Report an issue with Immich
+name: Report an issue with SnapCircle
+description: Report an issue with SnapCircle
 body:
   - type: checkboxes
     attributes:
@@ -14,7 +14,7 @@ body:
 
         If you have a feature or enhancement request, please use the [feature request][fr] section of our [GitHub Discussions][fr].
 
-        [fr]: https://github.com/immich-app/immich/discussions/new?category=feature-request
+        [fr]: https://github.com/kolesnikovav/SnapCircle/new?category=feature-request
 
   - type: textarea
     validations:
